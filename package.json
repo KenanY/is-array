@@ -1,0 +1,36 @@
+{
+  "name": "is-array",
+  "version": "0.0.0",
+  "description": "Is array component",
+  "repository": "KenanY/is-array",
+  "license": "MIT",
+  "author": "Kenan Yildirim <kenan@kenany.me> (http://kenany.me/)",
+  "main": "index.js",
+  "files": [
+    "index.js",
+    "LICENSE.txt"
+  ],
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "tape test/index.js",
+    "build": "component build --dev",
+    "components": "component install --dev",
+    "clean": "rm -fr build components"
+  },
+  "dependencies": {
+    "is-native": "KenanY/is-native"
+  },
+  "devDependencies": {
+    "lodash.constant": "^2.4.1",
+    "lodash.map": "^2.4.1",
+    "tape": "^2.12.0"
+  },
+  "component": {
+    "scripts": {
+      "is-array/index.js": "index.js"
+    }
+  },
+  "private": true
+}

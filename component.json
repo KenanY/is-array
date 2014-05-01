@@ -1,0 +1,17 @@
+{
+  "name": "is-array",
+  "repo": "KenanY/is-array",
+  "description": "Is array component",
+  "version": "0.0.0",
+  "keywords": [
+    "lodash"
+  ],
+  "scripts": [
+    "index.js"
+  ],
+  "dependencies": {
+    "KenanY/is-native": "1.0.0"
+  },
+  "license": "MIT",
+  "twitter": "@kyild"
+}
