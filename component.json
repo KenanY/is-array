@@ -10,7 +10,7 @@
     "index.js"
   ],
   "dependencies": {
-    "KenanY/is-native": "1.0.0"
+    "kenany/is-native": "1.0.0"
   },
   "license": "MIT",
   "twitter": "@kyild"
