@@ -32,5 +32,17 @@
       "is-array/index.js": "index.js"
     }
   },
-  "private": true
+  "private": true,
+  "testling": {
+    "files": "test/index.js",
+    "browsers": [
+      "ie/6..latest",
+      "chrome/4..latest",
+      "firefox/3..latest",
+      "safari/5.1..latest",
+      "opera/11.0..latest",
+      "iphone/6",
+      "ipad/6"
+    ]
+  }
 }
