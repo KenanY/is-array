@@ -2,6 +2,8 @@
 
 Lo-Dash's `isArray` function as a component.
 
+[![browser support](https://ci.testling.com/KenanY/is-array.png)](https://ci.testling.com/KenanY/is-array)
+
 ## Installation
 
 ``` bash
